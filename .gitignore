@@ -127,3 +127,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# OS + editor
+.vscode/
+.DS_Store
+data/.DS_Store
+
+# This project
+metastore_db/
+model/
+# file too-big
+data/GlobalLandTemperaturesByCity*
+data/*.sas7bdat
+# local Docker caches
+cache/
+jars/
